@@ -1,0 +1,96 @@
+{
+  "BoxController_getAccessToken" : {
+    "controller" : "BoxController",
+    "wmServiceOperationInfo" : {
+      "methodType" : "get",
+      "relativePath" : "/box/accessToken",
+      "name" : "getAccessToken",
+      "produces" : [ "application/json" ],
+      "directPath" : "/box/accessToken",
+      "proxySettings" : {
+        "web" : true,
+        "mobile" : true
+      },
+      "httpMethod" : "get",
+      "parameters" : [ ],
+      "definitions" : { },
+      "consumes" : null
+    },
+    "service" : "BoxService",
+    "operationType" : "string",
+    "id" : "BoxController_getAccessToken",
+    "type" : "string"
+  },
+  "BoxController_getCallbackURL" : {
+    "controller" : "BoxController",
+    "wmServiceOperationInfo" : {
+      "methodType" : "get",
+      "relativePath" : "/box/callbackURL",
+      "name" : "getCallbackURL",
+      "produces" : [ "application/json" ],
+      "directPath" : "/box/callbackURL",
+      "proxySettings" : {
+        "web" : true,
+        "mobile" : true
+      },
+      "httpMethod" : "get",
+      "parameters" : [ ],
+      "definitions" : { },
+      "consumes" : null
+    },
+    "service" : "BoxService",
+    "operationType" : "string",
+    "id" : "BoxController_getCallbackURL",
+    "type" : "string"
+  },
+  "BoxController_callback" : {
+    "controller" : "BoxController",
+    "wmServiceOperationInfo" : {
+      "methodType" : "get",
+      "relativePath" : "/box/callback",
+      "name" : "callback",
+      "produces" : null,
+      "directPath" : "/box/callback",
+      "proxySettings" : {
+        "web" : true,
+        "mobile" : true
+      },
+      "httpMethod" : "get",
+      "parameters" : [ ],
+      "definitions" : { },
+      "consumes" : null
+    },
+    "service" : "BoxService",
+    "operationType" : "object",
+    "id" : "BoxController_callback",
+    "type" : "object"
+  },
+  "BoxController_getLoginURL" : {
+    "controller" : "BoxController",
+    "wmServiceOperationInfo" : {
+      "methodType" : "get",
+      "relativePath" : "/box/loginURl",
+      "name" : "getLoginURL",
+      "produces" : [ "application/json" ],
+      "directPath" : "/box/loginURl",
+      "proxySettings" : {
+        "web" : true,
+        "mobile" : true
+      },
+      "httpMethod" : "get",
+      "parameters" : [ {
+        "parameterType" : "query",
+        "name" : "state",
+        "type" : "java.lang.String",
+        "contentType" : null,
+        "required" : false
+      } ],
+      "definitions" : { },
+      "consumes" : null
+    },
+    "service" : "BoxService",
+    "operationType" : "string",
+    "id" : "BoxController_getLoginURL",
+    "type" : "string"
+  }
+}

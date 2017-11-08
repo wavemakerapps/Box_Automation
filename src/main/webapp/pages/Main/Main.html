@@ -3,7 +3,10 @@
     <wm-top-nav name="topnav" content="topnav"></wm-top-nav>
     <wm-content name="content">
         <wm-left-panel columnwidth="2" name="leftpanel" content="leftnav"></wm-left-panel>
-        <wm-page-content columnwidth="8" paddingleft="15" paddingright="15" name="mainContent">
+        <wm-page-content padding="unset 15px" columnwidth="8" name="mainContent">
+            <wm-prefab loginmode="auto" name="BoxOAuth1" prefabname="BoxOAuth"></wm-prefab>
+            <wm-label caption="bind:Widgets.BoxOAuth1.accesstoken" name="label1" padding="unset 0.5em"></wm-label>
+            <wm-label caption="bind:Widgets.BoxOAuth1.callbackurl" name="label2" padding="unset 0.5em"></wm-label>
         </wm-page-content>
         <wm-right-panel columnwidth="2" name="rightpanel" content="rightnav"></wm-right-panel>
     </wm-content>
